@@ -71,9 +71,8 @@ module ExceptionLogger
 
     def show
       @exception = LoggedException.where(:id => params[:id]).first
-      
       respond_to do |format|
-        format.js
+        format.js {render :layout => false}
         format.html
       end
     end
