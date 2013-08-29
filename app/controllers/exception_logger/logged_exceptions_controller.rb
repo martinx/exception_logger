@@ -1,5 +1,6 @@
 module ExceptionLogger
   class LoggedExceptionsController < ApplicationController
+    layout 'exception_logger/logged_exceptions'
     
     cattr_accessor :application_name,
                    # A string representation of a method or property that contains 
