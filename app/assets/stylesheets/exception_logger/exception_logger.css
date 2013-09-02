@@ -337,3 +337,10 @@ ul.tabs li.selected a
 #container #left #showpage {
   margin-bottom:1em;
 }
+
+.pagination li {
+  list-style: none;
+  float:left;
+  text-align:right;
+  margin: 5px 5px 5px 5px;
+}
