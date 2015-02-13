@@ -41,9 +41,7 @@ body
 {
   font-size:0.9em;
   background:white;
-  border:2px solid #999;
   border-width:0 2px 2px 0;
-  padding:25px;
   xmargin-bottom:1em;
   color:black;
 }
@@ -210,6 +208,10 @@ tr:hover td a,
 tr.eor:hover td a { color:gold; }
 */
 
+.delete_visible_link {
+  float: left;
+  margin-right: 15px;
+}
 .message
 {
   font-size:0.8em;
@@ -252,7 +254,7 @@ tr.deleted td {
 }
 tr.deleted td a { color:#aaa; }
 
-.pages { float:right; margin-right:1em; }
+.pages { float:right; margin-right:1em; width: 500px; }
 .pages a { text-decoration:underline; }
 .pages-bottom { border-top:2px solid #ddd; text-align:right; float:none;
   padding-top:0.4em;
